@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guid3d Minds - Professional Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset some basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and font settings */
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    /* Global container */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header section */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+
+    header nav a:hover {
+      border-bottom: 2px solid #f4511e;
+    }
+
+    /* Hero section */
+    .hero {
+      background-color: #333;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background-color: #f4511e;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    .hero a:hover {
+      background-color: #e4401f;
+    }
+
+    /* About Section */
+    .about {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Services Section */
+    .services {
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .services .service {
+      display: inline-block;
+      width: 30%;
+      padding: 20px;
+      background-color: #fff;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .services .service h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .services .service p {
+      font-size: 1rem;
+      color: #777;
+    }
+
+    /* Contact Section */
+    .contact {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    .contact form input, .contact form textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .contact form button {
+      background-color: #f4511e;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .contact form button:hover {
+      background-color: #e4401f;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      color: #f4511e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Guid3d Minds</h1>
+        </div>
+        <div>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Welcome to Guid3d Minds</h1>
+      <p>Your journey towards success and self-improvement starts here.</p>
+      <a href="#about">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Guid3d Minds is here to inspire, educate, and guide you towards a better, more successful life. Whether you're looking for productivity tools, motivational content, or just some fresh ideas, you're in the right place.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Productivity Tools</h3>
+        <p>Get the best tools to help you track goals, build habits, and maximize your productivity.</p>
+      </div>
+      <div class="service">
+        <h3>Motivational Content</h3>
+        <p>We provide you with inspiring articles and quotes to keep you motivated every day.</p>
+      </div>
+      <div class="service">
+        <h3>Courses & Workshops</h3>
+        <p>Join our workshops to learn valuable skills for your personal and professional growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have any questions? Reach out to us, and we’ll get back to you as soon as possible.</p>
+      <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Guid3d Minds. All Rights Reserved. | <a href="#contact">Contact</a> | <a href="#services">Services</a></p>
+  </footer>
+
+</body>
+</html>
